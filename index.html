@@ -1,41 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Akan Names</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
-    <link rel="stylesheet" href="js/bootstrap.js" type="text/css" >
-    <link rel="stylesheet" href="style.css">
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Modak&display=swap" rel="stylesheet">
                                        
-    <title>Document</title>
+    <style type="text/css">
+        .ui{
+        background-color:#333;
+        padding: 30px;
+    }
+    
+    </style>
+    
 </head>
 <body>
     <h1>AKAN NAMES</h1>
     
         <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person.Lets find out what your Akan name is :)</p>
    
+    <div class= "container"></div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div id= "ui">
+                <form class="form-group">
+                    <form onsubmit = "return false">
+                        <div class="row">
+                            <!-- <div class="col-md-6"> -->
+                                <br>
+                                <p>Date</p>
+                                <input type="number" class= "form-control" name="date" id = "date" placeholder="enter name" min= "1" max ="31" required>
+                            <!-- </div> -->
 
-    <form onsubmit = "return false">
-     <div class="container">
-         <div class= "col-md-9"> </div>
+                            <!-- <div class="col-md-6"> -->
+                                <br>
+                                <p>Month</p>
+                                <input type ="nnumber" class="form-control" name ="month" id = "month" placeholder="enter the month" min ="1" max="12" required>
+                            <!-- </div> -->
+
+                            <!-- <div class="col-md-6"> -->
+                                <br>
+                                <p>Year</p>
+                                <input type ="number" class="form-control" name ="year" id ="year" placeholder ="enter an year" required>    
+                            <!-- </div> -->
+                            <!-- <select> -->
+                                <!-- <option>choose gender</option> -->
+                                <!-- <option>Male</option> -->
+                                <!-- <option>Female</option> -->
+                                <br><br>
+                                <input type = "radio" id = "female" name = "gender" value="female">FEMALE
+
+                                <br><br>
+                                <input type = "radio" id = "male" name = "gender" value="male">MALE
+
+                                <br><br>
+                                <input type = "submit" class="btn btn-primary btn-block" value ="submit" onclick="getName(); return false;">
+                            <!-- </select> -->
+
+
+                            
+
+                        </div>
+                    
+                    
+                    </form>
+
+                </form>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+
+    </div>
+
+    <!-- <form onsubmit = "return false"> -->
+     
         
-        <p>Date</p>
-        <input type="number" class= "form-control" name="date" id = "date" placeholder="enter name" min= "1" max ="31" required>
-        <p>Month</p>
-        <input type ="nnumber" name ="month" id = "month" placeholder="enter the month" min ="1" max="12" required>
-        <p>Year</p>
-        <input type ="number" name ="year" id ="year" placeholder ="enter an year" required>
+        <!-- <p>Date</p>
+        <input type="number" class= "form-control" name="date" id = "date" placeholder="enter name" min= "1" max ="31" required> -->
+        <!-- <p>Month</p> -->
+        <!-- <input type ="nnumber" name ="month" id = "month" placeholder="enter the month" min ="1" max="12" required> -->
+        <!-- <p>Year</p>
+        <input type ="number" name ="year" id ="year" placeholder ="enter an year" required> -->
 
-    </div> 
-        
 
-     gender:<br>
-        <input type = "radio" id = "female" name = "gender" value="female">FEMALE<br>
+     <!-- gender:<br> -->
+        <!-- <input type = "radio" id = "female" name = "gender" value="female">FEMALE<br>
         <input type = "radio" id = "male" name = "gender" value="male">MALE<br>
-        <input type = "submit" value ="submit" onclick="getName(); return false;">
-   </form>
+        <input type = "submit" value ="submit" onclick="getName(); return false;"> -->
+   <!-- </form> -->
 
    <script src= "index.js"></script>
     
