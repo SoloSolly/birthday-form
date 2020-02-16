@@ -1,28 +1,30 @@
-#PrOJECT NAME
-AKAN NAMES
+# PROJECT NAME
 
-##PROJECT AUTHOR:
-*SoloSolly
+* AKAN NAMES
 
-###PROJECT DESCRIPTION:
+# PROJECT AUTHOR:
+* SoloSolly
+
+# PROJECT DESCRIPTION:
+
 A website for generating Akan names based on your date and year of birth
 
-####TECHNOLOGIES USED:
-*Bootstrap
-javascript
-HTML
-CSS
-------------------
-#USER STORIES:
+# TECHNOLOGIES USED:
+* Bootstrap
+* javascript
+* HTML
+* CSS
+
+# USER STORIES:
 landing Page:
 User gets to the page and sees the landing page where they fill in their date and year of birth and select their gender either male or female,then push the submit button which fetches their Akan Name appearing as a prompt on the screen
 
 
-#CONTACT INFO:
+# CONTACT INFO:
 EMAIL: githua476@@gmail.com
 
 
-#LICENSE & COPYRIGHT
+# LICENSE & COPYRIGHT
 MIT License Copyright (c) 2020 (SoloSolly)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
