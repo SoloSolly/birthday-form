@@ -2,13 +2,13 @@
 AKAN NAMES
 
 #PROJECT AUTHOR:
-SoloSolly
+*SoloSolly
 
 #PROJECT DESCRIPTION:
 A website for generating Akan names based on your date and year of birth
 
 #TECHNOLOGIES USED:
-Bootstrap
+*Bootstrap
 javascript
 HTML
 CSS
