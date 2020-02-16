@@ -1,18 +1,18 @@
 #PrOJECT NAME
 AKAN NAMES
 
-#PROJECT AUTHOR:
+##PROJECT AUTHOR:
 *SoloSolly
 
-#PROJECT DESCRIPTION:
+###PROJECT DESCRIPTION:
 A website for generating Akan names based on your date and year of birth
 
-#TECHNOLOGIES USED:
+####TECHNOLOGIES USED:
 *Bootstrap
 javascript
 HTML
 CSS
-
+------------------
 #USER STORIES:
 landing Page:
 User gets to the page and sees the landing page where they fill in their date and year of birth and select their gender either male or female,then push the submit button which fetches their Akan Name appearing as a prompt on the screen
